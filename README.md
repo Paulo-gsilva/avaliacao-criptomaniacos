@@ -1,0 +1,1 @@
+# Avaliação Técnica da Criptomaníacos
