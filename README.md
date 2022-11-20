@@ -11,7 +11,7 @@ Após isso, realize o clone do repositório atual usando o seguinte comando:
 Ao realizar o clone, acesse a pasta **betterment**, nela estará contido o package.json,
 responsável pelos pacotes necessários para execução do projeto.
 
-Após acessar a pasta, realize o comando **_npm start_** para iniciar o projeto
+Após acessar a pasta, realize o comando **_npm install_** para instalar os pacotes, em seguida utilize o comando **npm start** para iniciar o projeto.
 
 Quando o navegador iniciar com o projeto rodando, acesse a rota **_http://localhost:3000/todo_**.
 Nesta rota serão encontradas a landing page e a todo list
