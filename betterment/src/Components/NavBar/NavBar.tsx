@@ -36,7 +36,7 @@ function NavBar() {
               <li className="mr-5 cursor-default hover:text-indigo-600 after:content-['▼'] after:ml-1 after:text-xs">
                 Investing
               </li>
-              <li className="cursor-pointer">
+              <li className="cursor-pointer hover:text-indigo-600">
                 <a href="/todo">Todo App</a>
               </li>
             </ul>

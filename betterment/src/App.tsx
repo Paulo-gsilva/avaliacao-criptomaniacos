@@ -1,14 +1,10 @@
 import React from "react";
-import BetterFuturePage from "./Components/BetterFuturePage/BetterFuturePage";
-import BettermentBetterPage from "./Components/BettermentBetterPage/BettermentBetterPage";
-import InitialPage from "./Components/InitialPage/InitialPage";
+import Routes from "./Components/Routes/routes";
 
 function App() {
   return (
     <>
-      <InitialPage />
-      <BetterFuturePage />
-      <BettermentBetterPage />
+      <Routes />
     </>
   );
 }
