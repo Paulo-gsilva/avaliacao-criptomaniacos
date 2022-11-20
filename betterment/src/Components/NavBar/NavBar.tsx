@@ -1,5 +1,6 @@
 import * as React from "react";
 import { MarginContainer } from "../Tailwind/Tailwind";
+import bettermentIcon from "../Images/img/Betterment Logo Icon SVG Footer.svg";
 
 function NavBar() {
   return (
@@ -19,7 +20,7 @@ function NavBar() {
               <a href="/">Employers</a>
             </li>
             <li className="hover:text-gray-400 uppercase">
-              <a href="/y">Advisor</a>
+              <a href="/">Advisor</a>
             </li>
           </ul>
         </nav>
@@ -30,7 +31,7 @@ function NavBar() {
           }
         >
           <nav className="header-menu-content-nav flex flex-row justify-start items-center">
-            {/* <img className="h-6" src={img} /> */}
+            <img className="h-6" src={bettermentIcon} alt="betterment icon " />
             <ul className="ml-8 font-normal text-lg hidden md:flex flex-row justify-evenly items-center">
               <li className="mr-5 cursor-default hover:text-indigo-600 after:content-['▼'] after:ml-1 after:text-xs">
                 Investing

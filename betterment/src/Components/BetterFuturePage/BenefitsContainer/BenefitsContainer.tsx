@@ -23,7 +23,7 @@ function BenefitsContainer() {
         alt="Engine image"
         title="Optimized"
         text="We put the robots to work for you, with automated tools and strategies that can help unlock your money’s potential."
-        className="mt-0 lg:mt-0 "
+        className="mt-[-5rem] lg:mt-0 "
       />
 
       <Benefits
