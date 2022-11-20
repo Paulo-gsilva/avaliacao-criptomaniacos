@@ -1,7 +1,7 @@
 import * as React from "react";
 import { MarginContainer } from "../Tailwind/Tailwind";
 import NavBar from "../NavBar/NavBar";
-import InitialText from "./InitialText/InitialText";
+import InitialText from "../InitialText/InitialText";
 import PartnerImage from "./PartnerImage/PartnerImage";
 import PhoneSea from "./PhoneSea/PhoneSea";
 import {

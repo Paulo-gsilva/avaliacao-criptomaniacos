@@ -1,0 +1,10 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+   <title>Assets icon </title>
+   <rect x="11.416" y="5.76624" width="45.258" height="56.5725" fill="#A3A3A3"></rect>
+   <circle cx="34.0459" cy="22.7386" r="8.48588" fill="#FFFFFF"></circle>
+   <circle cx="34.0449" cy="22.7416" r="4.71438" fill="#1D6AE5"></circle>
+   <path fill-rule="evenodd" clip-rule="evenodd" d="M35.9312 34.054H32.1597V41.0453C30.4945 41.7727 29.3308 43.4342 29.3308 45.3675C29.3308 45.5474 29.3409 45.7249 29.3605 45.8996L23.3076 49.3943L25.1934 52.6605L31.2496 49.1639C32.0318 49.7409 32.9987 50.0819 34.0452 50.0819C35.0928 50.0819 36.0605 49.7402 36.8431 49.1622L42.9039 52.6615L44.7897 49.3952L38.7302 45.8968C38.7496 45.723 38.7596 45.5464 38.7596 45.3675C38.7596 43.4343 37.5961 41.773 35.9312 41.0455V34.054Z" fill="#FFFFFF"></path>
+   <rect x="47.2446" y="13.3112" width="9.42876" height="9.42876" fill="#F5F5F5"></rect>
+   <rect x="47.2446" y="45.3695" width="9.42876" height="9.42876" fill="#F5F5F5"></rect>
+   <rect x="15.1865" y="9.54077" width="3.7715" height="49.0295" fill="#F5F5F5"></rect>
+   </svg>
