@@ -3,7 +3,7 @@ import BenefitsContainer from "./BenefitsContainer/BenefitsContainer";
 
 function BetterFuturePage() {
   return (
-    <section className="w-full h-full lg:h-screen flex flex-row justify-center items-center">
+    <section className="block w-full h-full lg:h-screen flex flex-row justify-center items-center">
       <div
         className={"w-full h-full flex flex-col justify-center items-center"}
       >

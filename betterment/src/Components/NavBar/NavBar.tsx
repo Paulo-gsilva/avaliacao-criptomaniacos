@@ -1,10 +1,26 @@
 import * as React from "react";
 import { MarginContainer } from "../Tailwind/Tailwind";
+import { Link } from "react-router-dom";
 import bettermentIcon from "../Images/img/Betterment Logo Icon SVG Footer.svg";
 
 function NavBar() {
+  const sectionElement: HTMLCollectionOf<HTMLElement> =
+    document.getElementsByTagName("section");
+
+  const handleClick = (): void => {
+    for (let index = 0; index < sectionElement.length; index++) {
+      if (sectionElement[index].classList.contains("block")) {
+        sectionElement[index].classList.remove("block");
+        sectionElement[index].classList.add("hidden");
+      } else if (sectionElement[index].classList.contains("hidden")) {
+        sectionElement[index].classList.add("block");
+        sectionElement[index].classList.remove("hidden");
+      }
+    }
+  };
+
   return (
-    <header className="header-menu bg-amber-100 w-full md:h-28 h-16 flex flex-col items-center">
+    <header className=" bg-amber-100 w-full md:h-28 h-16 flex flex-col items-center">
       <div className=" w-full h-full">
         <nav className="bg-zinc-900 w-full h-10 hidden md:flex flex-row items-center justify-end font-extrabold text-white">
           <ul
@@ -27,21 +43,29 @@ function NavBar() {
         <div
           className={
             MarginContainer +
-            "header-menu-content h-18 mt-4 px-4 flex flex-row justify-between items-center"
+            " h-18 mt-4 px-4 flex flex-row justify-between items-center"
           }
         >
           <nav className="header-menu-content-nav flex flex-row justify-start items-center">
-            <img className="h-6" src={bettermentIcon} alt="betterment icon " />
+            <Link to="/todo" onClick={handleClick}>
+              <img
+                className="h-6"
+                src={bettermentIcon}
+                alt="betterment icon "
+              />
+            </Link>
             <ul className="ml-8 font-normal text-lg hidden md:flex flex-row justify-evenly items-center">
               <li className="mr-5 cursor-default hover:text-indigo-600 after:content-['▼'] after:ml-1 after:text-xs">
                 Investing
               </li>
-              <li className="cursor-pointer hover:text-indigo-600">
-                <a href="/todo">Todo App</a>
+              <li className="todoapp cursor-pointer hover:text-indigo-600">
+                <Link to="/todo" onClick={handleClick}>
+                  Todo App
+                </Link>
               </li>
             </ul>
           </nav>
-          <div className="header-menu-content-login hidden md:flex flex-row justify-evenly items-center">
+          <div className=" hidden md:flex flex-row justify-evenly items-center">
             <h3 className="text-lg">Log in</h3>
             <button className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-sm  border border-transparent bg-blue-600 px-6 py-2 text-base font-semibold text-white shadow-sm hover:bg-indigo-700">
               Get started

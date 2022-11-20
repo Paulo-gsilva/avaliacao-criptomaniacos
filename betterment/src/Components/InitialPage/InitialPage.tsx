@@ -1,5 +1,4 @@
 import * as React from "react";
-import { MarginContainer } from "../Tailwind/Tailwind";
 import NavBar from "../NavBar/NavBar";
 import InitialText from "../InitialText/InitialText";
 import PartnerImage from "./PartnerImage/PartnerImage";
@@ -14,7 +13,7 @@ import {
 function InitialPage() {
   return (
     <>
-      <section className="h-sc lg:h-full bg-amber-100">
+      <section className="block lg:h-full bg-amber-100">
         <NavBar />
         <div className={"h-full  pt-12 lg:flex"}>
           <div className="relative lg:absolute w-auto lg:w-[34rem] text-center lg:text-left xl:ml-40 ml-0 lg:ml-4 pl-0 lg:pl-8 pt-0 lg:pt-12">

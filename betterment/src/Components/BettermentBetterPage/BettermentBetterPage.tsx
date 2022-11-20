@@ -7,7 +7,7 @@ import GridContainer from "./GridContainer/GridContainer";
 
 function BettermentBetterPage() {
   return (
-    <section className="w-full h-screen mt-24">
+    <section className="block w-full h-screen mt-24">
       <img className="w-full" src={archSvg} alt="arch illustration" />
       <div
         className={
