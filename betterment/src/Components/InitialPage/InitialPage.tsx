@@ -14,16 +14,16 @@ import {
 function InitialPage() {
   return (
     <>
-      <section className="h-screen bg-amber-100">
+      <section className="h-sc lg:h-full bg-amber-100">
         <NavBar />
         <div className={"h-full  pt-12 lg:flex"}>
-          <div className="relative lg:absolute w-auto lg:w-[34rem] text-center lg:text-left xl:ml-40 ml-4 pl-8 pt-0 lg:pt-12">
+          <div className="relative lg:absolute w-auto lg:w-[34rem] text-center lg:text-left xl:ml-40 ml-0 lg:ml-4 pl-0 lg:pl-8 pt-0 lg:pt-12">
             <InitialText
               title="Investing made better"
               text="Meet the app that gives you the tools, inspiration, and support to
               help you become a better investor."
             />
-            <div className="w-full mt-32 h-[50%] flex flex-row justify-start items-center">
+            <div className="w-full mt-32 h-[50%] flex flex-row justify-center lg:justify-start items-center">
               <PartnerImage
                 width="w-32"
                 img={newYorkTimesImage}
